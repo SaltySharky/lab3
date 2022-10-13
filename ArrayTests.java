@@ -44,5 +44,9 @@ public class ArrayTests {
     expected = 2.0;
     // last argument is delta, the difference margin between the first two args
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input2), 0);
+
+    double[] input3 = {10, 3, 4, 6, 7, 3};
+    expected = 6;
+    assertEquals(expected, ArrayExamples.averageWithoutLowest(input3), 0);
   }
 }
